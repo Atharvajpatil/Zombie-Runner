@@ -113,7 +113,7 @@ girl.collide(stopper)
       jumpSound.play();
     }
 
-    if(touches.length>0){
+    if(touches.length>0&&girl.y>=229){
     girl.velocityY = -12;
     jumpSound.play();
     }
